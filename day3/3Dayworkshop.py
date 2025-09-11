@@ -22,3 +22,14 @@ print("unique attendees:",uniqueAttendees(s1,s2,s3))
 print("attended all days:",AttendedAllDays(s1,s2,s3))
 print("attended only one day:",AttendedOnlyOneDay(s1,s2,s3))
 print("pairwise overlaps:",pairwiseOverlaps(s1,s2,s3))
+
+'''
+A 3-day tech workshop collected attendee registrations separately for each day. You are given three lists (day1, day2, day3) of email addresses — lists may contain duplicates (people registering multiple times) and email case may vary (Upper/Lower).
+Write a Python program that:
+Cleans each day's list (normalizes case, removes duplicates).
+Prints the total number of unique attendees across all days.
+Prints the list of attendees who attended all three days.
+Prints the list of attendees who attended exactly one day.
+Prints pairwise overlap counts (day1 & day2, day2 & day3, day1 & day3).
+Produces a final report with counts and sorted lists for each of the above outputs.
+'''

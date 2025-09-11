@@ -45,4 +45,16 @@ while choice!=8:
     choice=int(input("1.Add Book\n2.Remove Book\n3.Search Book\n4.Update\n5.display all books\n6.count of books\n7book exist(reverse lookup)\n8.Exit\nEnter your choice:"))
 
         
-
+'''
+You are building a Library Management System in Python. The system should store books in a dictionary where:
+Key → Book ID
+Value → Book Title
+Write a Python program to perform the following operations using Dictionaries:
+Add a book to the library (Book ID, Title).
+Remove a book using Book ID.
+Search for a book by Book ID and display the title.
+Update the title of a book (e.g., correction in title).
+Display all books in the library.
+Count the total number of books in the library.
+Check if a book title exists in the library (reverse lookup).
+'''
