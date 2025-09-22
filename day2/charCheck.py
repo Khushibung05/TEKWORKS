@@ -6,3 +6,4 @@ if c.isalnum():
         print(f"{c} is a digit")
 else:
     print(f"{c} is a special character")
+    
